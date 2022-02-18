@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background-color: #FEA82F;
+  font-family: Times New Roman, sans-serif;
+   opacity: 0.95;
+}
+
+h2 {
+  font-family: Times New Roman, serif;
+  color: beige;
+}
+th {
+    padding: 50px;
+
+}
+
+td {
+  text-align: center;
+  color: black;
+  font-family: Times New Roman, sans-serif;
+  padding: 20px;
+}
+#Appetizers {
+  background-color: #B22;
+  color: beige
+}
+
+#Entrees {
+  background-color: #B22;
+  color: beige
+}
+
+#Desserts {
+  background-color: #B22;
+  color: beige
+}
+
+#Drinks {
+  background-color: #B22;
+  color: beige
+}
+
+nav{
+	background-color: #B22;
+	display: flex;
+	justify-content: center;
+}
+
+nav a{
+	padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: darkorange;
+  border-radius: 5px;
+  margin:10px;
+	
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.col{
+	margin: 10px 5px;
+	float: left;
+	padding: 15px;
+	width: 200px;
+	border-radius: 5px;
+	grid-template-columns: repeat(3, 1fr);
+	height: 300px;
+	background-color: #B22;
+}
+.col img{
+	border-radius: 5px;
+	width: 100%;
+}
+
+
+form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 2rem 0;
+}
+
+label{
+	margin: 10px 0;
+}
+
+input{
+	border-radius: 5px;
+	width: 200px;
+	padding: 10px;
+	border: 2px solid #B22;
+}
+
+input[type=submit]{
+	margin: 10px 0;
+	background-color: #B22;
+	border-color:#FEA82F;
+	color: #fff;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color:#B22;
+}
+
+footer p{
+	color: #fff;
+}
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+
+    width: 100%;
+  }
+}
+section {
+  	margin: 10px 5px;
+
+    background-image: url("https://images.unsplash.com/photo-1529348915581-73628f0cf212?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGhlYWRlciUyMG9yYW5nZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60");
+}
+
+    
+}
